@@ -1,0 +1,137 @@
+
+
+/* Global ------------------------------------------------------------------ */
+
+
+* {
+  margin: 0;
+}
+
+.sbs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.colum{
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+
+/* Page Header ------------------------------------------------------------- */
+
+/* Navbar */
+header .nav-container {
+  padding: 20px 5vw;
+}
+
+header .logo {
+  width: 50px;
+}
+
+header .title-container {
+  margin-left: 20px;
+}
+
+header .title-container a {
+  padding: 8px;
+}
+
+header .link-container {
+  margin-left: 10px;
+}
+
+header .link-container a {
+  padding: 8px;
+}
+
+/* Presentation */
+header .presentation-video-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+header .video-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+header .presentation-video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+/* Page Main --------------------------------------------------------------- */
+
+
+/* Advantages Section */
+#advantages .container{
+  padding: 7vw 15vw;
+  text-align: center;
+}
+
+#advantages .icon {
+  width: 128px;
+}
+
+#advantages h3 {
+  margin-top: 25px;
+}
+
+#advantages p {
+  margin-top: 10px;
+}
+
+/* Portifolios Section */
+#portifolios .container {
+  padding: 7vw 0;
+}
+
+#portifolios .cards-container {
+  width: 70vw;
+}
+
+#portifolios .text-container {
+  margin-left: 5vw;
+}
+
+#portifolios .text-container p {
+  margin-top: 25px;
+}
+
+#portifolios .text-container .button {
+  margin-top: 25px;
+  padding: 10px 22.5px;
+  display: inline-block;
+}
+
+/* Prices Section */
+
+/* About Section */
+
+/* Testimonials Section */
+
+/* Contact Section */    
+
+
+/* Page Footer ------------------------------------------------------------- */
+
+/* Footer */

@@ -1,0 +1,188 @@
+
+
+/* Global ------------------------------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900; 
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+a {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-weight: 400;
+}
+
+ul li {
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+
+.listas-p1 .p1, .listas-p2 .p2, .listas-p3 .p3{
+  list-style: none;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+
+/* Page Header ------------------------------------------------------------- */
+
+/* Navbar */
+header .title-container a {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0BD8FE;
+}
+
+header .link-container a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8f8f8f;
+  transition: .5s;
+}
+header .link-container a:hover {
+  color: black;
+}
+
+/* Presentation */
+header .video-filter {
+  background-color: black;
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+}
+
+
+/* Page Main --------------------------------------------------------------- */
+
+
+/* Advantages Section */
+#advantages h3 {
+  font-size: 1.5rem;
+}
+
+#advantages p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/* Portifolios Section */
+#portifolios .container {
+  background-color: #0BD8FE;
+}
+
+#portifolios img {
+  border-radius: 1rem;
+}
+
+#portifolios .text-container h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+#portifolios .text-container p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#portifolios .text-container .button {
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color:#000000;
+  background: #ffffff;
+  transition: .5s;
+}
+#portifolios .text-container .button:hover {
+  background: #c6c7c8;
+}
+
+/* Prices Section */
+
+.price-h1{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.h1-color{
+  background-color:#0BD8FE;
+  padding: 10px;
+}
+.plano-1{
+  text-align: center;
+  margin-left: 30px;
+  border: 1px solid #8f8f8f;
+}
+
+.plano-1 .p1{
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+.listas-p1{
+  text-align: center;
+}
+
+
+.plano-2{
+  text-align: center;
+  margin-left: 30px;
+  border: 1px solid #8f8f8f;
+}
+
+.plano-2 .p2{
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+.listas-p2{
+  text-align: center;
+}
+
+.plano-3{
+  text-align: center;
+  margin-right: 30px;
+  border: 1px solid #8f8f8f;
+}
+
+.plano-3 .p3{
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+.listas-p3{
+  text-align: center;
+}
+
+
+.price-plano-1 p{
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+
+
+
+
+
+/* About Section */
+
+/* Testimonials Section */
+
+/* Contact Section */    
+
+
+/* Page Footer ------------------------------------------------------------- */
+
+/* Footer */
