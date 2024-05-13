@@ -1,0 +1,296 @@
+
+
+/* Global ------------------------------------------------------------------ */
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900; 
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+a {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+/* Page Header ------------------------------------------------------------- */
+
+/* Navbar (João Paulo) */
+header .title-container a {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0BD8FE;
+}
+
+header .link-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8f8f8f;
+  transition: .5s;
+  cursor: pointer;
+}
+header .link-container p:hover {
+  color: black;
+}
+
+/* Presentation (João Paulo) */
+header .video-filter {
+  background-color: black;
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+}
+
+
+/* Page Main --------------------------------------------------------------- */
+
+
+/* Advantages Section (João Paulo) */
+#advantages h3 {
+  font-size: 1.5rem;
+}
+
+#advantages p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/* Portifolios Section (João Paulo) */
+#portifolios .container {
+  background-color: #0BD8FE;
+}
+
+#portifolios .slides-container {
+  list-style: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#portifolios .slide-arrow {
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  transition: .5s;
+}
+
+#portifolios .slide-arrow:hover {
+  color: #c6c7c8;
+}
+
+#portifolios img {
+  border-radius: 1rem;
+}
+
+#portifolios .text-container h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+#portifolios .text-container p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#portifolios .text-container .button {
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color:#000000;
+  background: #ffffff;
+  transition: .5s;
+}
+#portifolios .text-container .button:hover {
+  background: #c6c7c8;
+}
+
+/* Prices Section (Matheus) */
+#prices ul {
+  padding-left: 0;
+}
+
+#prices .p1, #prices .p2, #prices .p3{
+  list-style: none;
+  margin-top: 15px;
+}
+
+#prices .plano-1{
+  border: 2px solid #dee2e6;
+  border-radius: .5rem;
+  width: 30%;
+}
+
+#prices .title{
+  padding: 25px;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: .5rem .5rem 0 0;
+  background-color:#e9ecef;
+}
+
+#prices .plano-1 .p1{
+  font-weight: 400;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+#prices .listas-p1{
+  padding: 0 25px;
+}
+
+
+#prices .plano-2{
+  border: 2px solid #dee2e6;
+  border-radius: .5rem;
+  width: 30%;
+}
+
+#prices .plano-2 .p2{
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#prices .listas-p2{
+  padding: 0 25px;
+}
+
+#prices .plano-3{
+  border: 2px solid #dee2e6;
+  border-radius: .5rem;
+  font-size: 1rem;
+  width: 30%;
+}
+
+#prices .plano-3 .p3{
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+#prices .listas-p3{
+  padding: 0 25px;
+}
+
+#prices .plan-price p{
+  padding-top: 20px;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+#prices .fplan-button, #prices .splan-button, #prices .tplan-button {
+  margin: 20px;
+  padding: 10px 22.5px;
+  display: inline-block;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#prices .fplan-button {
+  border: black 1px solid;
+  background: transparent;
+}
+#prices .fplan-button:hover {
+  color: white;
+  background: black;
+}
+
+#prices .splan-button {
+  font-weight: 900;
+  border: black 1px solid;
+  background: transparent;
+}
+#prices .splan-button:hover {
+  color: white;
+  background: black;
+}
+
+#prices .tplan-button {
+  font-weight: 900;
+  border: none;
+  color: white;
+  background: black;
+}
+#prices .tplan-button:hover {
+  background: #565656;
+}
+
+/* About Section */
+#about .img-container img {
+  border-radius: 1rem;
+}
+
+#about .conteiner{
+  background-color: #0DA2FB;
+  padding: 7% 15%;
+}
+
+#about .img-container img{
+  width: 512px;
+}
+
+#about .txt-PlayTech{
+  margin-left: 2.5vw;
+}
+
+#about .txt-PlayTech .txt-h2{
+  color: white;
+  font-size: 3rem;
+}
+
+#about .txt-PlayTech .txt-simples{
+  margin: 25px 0 0;
+  text-align: justify;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Testimonials Section */
+
+/* Contact Section */    
+
+
+/* Page Footer ------------------------------------------------------------- */
+
+/* Footer */
+
+
+/* Privacy Policy Page ----------------------------------------------------- */
+
+/* Main */
+#privacy-policy-main h1 {
+  font-weight: bold;
+}
+
+#privacy-policy-main h2 {
+  font-weight: bold;
+}
+
+
+/* Terms of usage Page ----------------------------------------------------- */
+
+/* Main */
+#terms-of-usage-main h1 {
+  font-weight: bold;
+}
+
+#terms-of-usage-main h2 {
+  font-weight: bold;
+}
