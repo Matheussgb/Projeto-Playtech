@@ -1,0 +1,466 @@
+
+
+/* Global ------------------------------------------------------------------ */
+
+html {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #363636;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 900; 
+}
+
+p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-family: "Open Sans", Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+/* Page Header ------------------------------------------------------------- */
+
+/* Navbar (João Paulo) */
+header .title-container a {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0BD8FE;
+}
+
+header .link-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8f8f8f;
+  transition: .5s;
+  cursor: pointer;
+}
+header .link-container p:hover {
+  color: #363636;
+}
+
+header .link-container a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8f8f8f;
+  transition: .5s;
+  cursor: pointer;
+}
+header .link-container a:hover {
+  color: #363636;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  header .title-container a {
+    font-size: 1rem;
+  }
+  header .link-container p, header .link-container a {
+    font-size: .75rem;
+  }
+}
+
+/* Presentation (João Paulo) */
+header .video-filter {
+  background-color: black;
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+}
+
+
+/* Page Main --------------------------------------------------------------- */
+
+
+/* Advantages Section (João Paulo) */
+
+#advantages h3 {
+  font-size: 1.5rem;
+}
+  
+#advantages p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #advantages h3 {
+    font-size: 1.15rem;
+  }
+}
+
+/* Portifolios Section (João Paulo) */
+#portifolios .container {
+  background-color: #0BD8FE;
+}
+
+#portifolios .slides-container {
+  list-style: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#portifolios .slide-arrow {
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  transition: .5s;
+}
+
+#portifolios .slide-arrow:hover {
+  color: #c6c7c8;
+}
+
+#portifolios img {
+  border-radius: 1rem;
+}
+
+#portifolios .text-container h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+#portifolios .text-container p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#portifolios .text-container .button {
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  background: white;
+  transition: .5s;
+}
+#portifolios .text-container .button:hover {
+  background: #c6c7c8;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #portifolios .mobile-title-container {
+    font-size: 1.25rem;
+    text-align: center;
+    color: white;
+  }
+  #portifolios .text-container p {
+    font-size: 1rem;
+  }
+  #portifolios .text-container .button {
+    font-size: 1rem;
+  }
+}
+
+/* Prices Section (Matheus) */
+#prices .p1, #prices .p2, #prices .p3{
+  list-style: none;
+}
+
+#prices .plano-1{
+  border: 2px solid #dee2e6;
+  border-radius: .5rem;
+}
+
+#prices .title{
+  font-size: 1.5rem;
+  border-radius: .5rem .5rem 0 0;
+  background-color:#e9ecef;
+}
+
+#prices .p1,
+#prices .p2,
+#prices .p3 {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+#prices .plano-2{
+  border: 2px solid #dee2e6;
+  border-radius: .5rem;
+}
+
+#prices .plano-3{
+  border: 2px solid #dee2e6;
+  border-radius: .5rem;
+  font-size: 1rem;
+}
+
+#prices .plan-price p{
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+#prices .fplan-button, 
+#prices .splan-button, 
+#prices .tplan-button {
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#prices .fplan-button {
+  border: #363636 1px solid;
+  background: transparent;
+}
+#prices .fplan-button:hover {
+  color: white;
+  background: #363636;
+}
+
+#prices .splan-button {
+  font-weight: 900;
+  border: #363636 1px solid;
+  background: transparent;
+}
+#prices .splan-button:hover {
+  color: white;
+  background: #363636;
+}
+
+#prices .tplan-button {
+  font-weight: 900;
+  border: none;
+  color: white;
+  background: #363636;
+}
+#prices .tplan-button:hover {
+  background: #565656;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #prices .title{
+    font-size: 1.15rem;
+  }
+  #prices .plan-price p{
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  #prices .fplan-button, #prices .splan-button, #prices .tplan-button {
+    font-size: 1rem;
+  }
+}
+
+/* About Section (Matheus) */
+#about .img-container img {
+  border-radius: 1rem;
+}
+
+#about .conteiner{
+  background-color: #0DA2FB;
+}
+
+#about .txt-PlayTech .txt-h2{
+  color: white;
+  font-size: 3rem;
+}
+
+#about .txt-PlayTech .txt-simples{
+  text-align: justify;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #about  .mobile-txt-container {
+    font-size: 1.25rem;
+    color: white;
+  } 
+  #about .txt-PlayTech .txt-simples {
+    font-size: 1rem;
+  }
+}
+
+/* Testimonials Section (Carlos) */
+#testimonials .container {
+  background-color: white;
+}
+
+#testimonials img {
+  border-radius: 100%;
+}
+
+#testimonials h3 {
+  font-size: 1.5rem;
+}
+
+#testimonials p {
+  font-size: 1rem;
+  color: #C0C0C0;
+}
+
+#testimonials a {
+  font-size: 1rem;
+  color: #0BD8FE;
+  transition: .5s;
+}
+#testimonials a:hover {
+  color: #0DA2FB;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #testimonials .card img{
+    width: 100px;
+    padding:12px;
+
+  }
+
+  #testimonials .side-by-side{
+    flex-direction: column;
+  }
+
+  .side-by-side a{
+    margin-bottom: 15px;
+  }
+
+  .card a{
+    align-items: center;
+    display: block;
+    flex-direction: column;
+    margin-top: -15px;
+  }
+
+  #testimonials .card h3{
+    margin-top: 0%;
+    font-size: 18px; 
+  }
+
+  #testimonials .card p{
+    padding: 2px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #testimonials  .card .fa-arrow-up-right-from-square {
+    padding-top: 20px;
+    text-align: justify;
+  }
+
+}
+
+/* Contact Section (Carlos) */    
+#contact {
+  background-color: #DCDCDC;
+}
+
+#contact .info-item, #contact .form {
+  border-radius: .5rem;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  color: #6b6b6b;
+}
+
+#contact h3 {
+  font-size: 1.5rem;
+  color: #6b6b6b;
+}
+
+#contact p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+#contact input, #contact textarea {
+  border-radius: .5rem;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+#contact button {
+  font-size: 1rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color: #8f8f8f;
+  font-weight: bold;
+  background: white;
+  transition: .5s;
+}
+#contact button:hover {
+  background: #c6c7c8;
+}
+
+
+/* Page Footer ------------------------------------------------------------- */
+
+/* Footer (Carlos) */
+footer {
+  background-color: #4480BA;
+}
+
+footer p,
+footer a {
+  font-size: 1rem;
+  color:#DCDCDC;
+  transition: .5s;
+}
+footer p:hover,
+footer a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+
+  .footer-container .link .privacy{
+    font-size: 14px;
+    display: block;
+    float: left;
+  }
+  .footer-container .link .termos-de-uso{
+    display: block;
+    align-items: center;
+    margin-right: -10px;
+    font-size: 14px;
+  }
+
+
+  .footer-container p{
+    display: block;
+    margin-left: 50px;
+    font-size: 14px;
+  }
+}
+
+
+/* Privacy Policy Page ----------------------------------------------------- */
+
+/* Main (João Paulo) */
+#privacy-policy-main h1 {
+  font-weight: bold;
+}
+
+#privacy-policy-main h2 {
+  font-weight: bold;
+}
+
+
+/* Terms of usage Page ----------------------------------------------------- */
+
+/* Main (João Paulo) */
+#terms-of-usage-main h1 {
+  font-weight: bold;
+}
+
+#terms-of-usage-main h2 {
+  font-weight: bold;
+}

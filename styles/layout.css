@@ -1,0 +1,484 @@
+
+
+/* Global ------------------------------------------------------------------ */
+
+
+* {
+  margin: 0;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.v-center {
+  align-items: center;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+
+/* Page Header ------------------------------------------------------------- */
+
+/* Navbar (João Paulo) */
+header .nav-container {
+  padding: 20px 5%;
+}
+
+header .logo {
+  width: 50px;
+}
+
+header .title-container {
+  margin-left: 20px;
+}
+
+header .title-container a {
+  padding: 8px;
+}
+
+header .link-container {
+  margin-left: 10px;
+}
+
+header .link-container p, header .link-container a {
+  padding: 8px;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  header .nav-container {
+    padding: 10px 5%;
+  }
+  header .logo {
+    width: 35px;
+  }
+  header .title-container {
+    margin: 0;
+  }
+  header .title-container a {
+    padding: 5px;
+  }
+  header .link-container {
+    margin: 0;
+  }
+  header .link-container p, header .link-container a {
+    padding: 2.5px;
+  }
+}
+
+/* Presentation (João Paulo) */
+header .presentation-video-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+header .video-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+header .presentation-video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+/* Page Main --------------------------------------------------------------- */
+
+
+/* Advantages Section (João Paulo) */
+#advantages .container{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#advantages .icon {
+  width: 128px;
+}
+
+#advantages h3 {
+  margin-top: 25px;
+}
+
+#advantages p {
+  margin-top: 10px;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #advantages .container {
+    display: block;
+    padding: 50px 5%;
+  }
+
+  #advantages .margin-top {
+    margin-top: 35px;
+  }
+}
+
+/* Portifolios Section (João Paulo) */
+#portifolios .container {
+  padding: 7% 0;
+}
+
+#portifolios ul {
+  padding: 0;
+}
+
+#portifolios .slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#portifolios .slides-container {
+  width: 70vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+#portifolios .slides-container::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+}
+
+#portifolios .slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+#portifolios .slide-arrow {
+  width: 2rem;
+  height: 4rem;
+  padding: 0;
+}
+
+#portifolios .mobile-title-container {
+  display: none;
+}
+
+#portifolios .text-container {
+  margin-left: 2.5vw;
+}
+
+#portifolios .text-container p {
+  margin-top: 25px;
+}
+
+#portifolios .text-container .button {
+  margin-top: 25px;
+  padding: 10px 22.5px;
+  display: inline-block;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #portifolios .container {
+    padding: 50px 0;
+  }
+  #portifolios .slides-container {
+    width: 100%;
+    align-items: normal;
+  }
+  #portifolios .slide {
+    display: block;
+  }
+  #portifolios .mobile-title-container {
+    margin-bottom: 35px;
+    display: block;
+  }
+  #portifolios .slide img {
+    width: 100%;
+  }
+  #portifolios .text-container {
+    margin-left: 0;
+    text-align: center;
+  } 
+  #portifolios .text-container h2 {
+    display: none;
+  }
+}
+
+
+/* Prices Section (Matheus) */
+#prices .container {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#prices ul {
+  padding-left: 0;
+}
+
+#prices .p1, 
+#prices .p2, 
+#prices .p3 {
+  margin-top: 15px;
+}
+
+#prices .plano-1, 
+#prices .plano-2,
+#prices .plano-3 { 
+  width: 30%;
+}
+
+#prices .title {
+  padding: 25px;
+}
+
+#prices .listas-p1,
+#prices .listas-p2,
+#prices .listas-p3 {
+  padding: 0 25px;
+}
+
+#prices .plan-price p {
+  margin-top: 20px;
+}
+
+#prices .fplan-button, 
+#prices .splan-button, 
+#prices .tplan-button {
+  margin: 20px;
+  padding: 10px 22.5px;
+  display: inline-block;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #prices .container {
+    padding: 50px 5%;
+    text-align: center;
+    display: block;
+  }
+  #prices .p1, 
+  #prices .p2, 
+  #prices .p3 {
+    margin-top: 10px;
+  }
+  #prices .plano-1, 
+  #prices .plano-2,
+  #prices .plano-3 { 
+    width: 100%;
+  }
+  #prices .plano-2,
+  #prices .plano-3 { 
+    margin-top: 35px;
+  }
+  #prices .listas-p1,
+  #prices .listas-p2,
+  #prices .listas-p3 {
+    padding: 0 15px;
+  }
+  #prices .plan-price p {
+    margin-top: 10px;
+  }
+  #prices .fplan-button, 
+  #prices .splan-button, 
+  #prices .tplan-button {
+    margin: 10px;
+    width: 95%;
+  }
+}
+
+/* About Section (Matheus) */
+#about .conteiner {
+  padding: 7% 15%;
+}
+
+#about .mobile-txt-container {
+  display: none;
+}
+
+#about .img-container img {
+  width: 512px;
+}
+
+#about .txt-PlayTech {
+  margin-left: 2.5vw;
+}
+
+#about .txt-PlayTech .txt-simples {
+  margin: 25px 0 0;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #about .conteiner {
+    padding: 50px 5%;
+    display: block;
+  }
+  #about .mobile-txt-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #about .img-container img {
+    width: 100%;
+  }
+  #about .txt-PlayTech {
+    margin-left: 0;
+  }
+  #about .txt-PlayTech .txt-h2{
+    display: none;
+  } 
+  #about .txt-PlayTech .txt-simples {
+    margin: 15px 0 0;
+  }
+}
+
+
+/* Testimonials Section (Carlos) */
+#testimonials .container {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#testimonials img {
+  width: 128px;
+}
+
+#testimonials h3 {
+  margin-top: 25px;
+}
+
+#testimonials p {
+  margin-top: 10px;
+}
+
+#testimonials span {
+  margin-left: 10px;
+}
+
+#testimonials i {
+  margin-right: 5px;
+}
+
+/* Contact Section (Carlos) */ 
+#contact .container {
+  padding: 7% 15%;
+}
+
+#contact h2 {
+  margin-bottom: 25px;
+}
+
+#contact h3 {
+  margin-top: 15px;
+}
+
+#contact p {
+  margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  padding: 10px 22.5px;
+  display: inline-block;
+}   
+
+/* Page Footer ------------------------------------------------------------- */
+
+/* Footer (Carlos) */
+footer {
+  padding: 7% 10%;
+}
+
+
+/* Privacy Policy Page ----------------------------------------------------- */
+
+/* Main (João Paulo) */
+header .link-container a {
+  padding: 8px;
+}
+
+#privacy-policy-main .container {
+  margin: 0 calc(5% + 50px + 20px + 8px);
+  text-align: justify;
+}
+
+#privacy-policy-main h1 {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+#privacy-policy-main h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#privacy-policy-main p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #privacy-policy-main .container {
+    margin: 0 calc(5%);
+    text-align: justify;
+  }
+}
+
+
+/* Terms of usage Page ----------------------------------------------------- */
+
+
+/* Main (João Paulo) */
+#terms-of-usage-main .container {
+  margin: 0 calc(5% + 50px + 20px + 8px);
+  text-align: justify;
+}
+
+#terms-of-usage-main h1 {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+#terms-of-usage-main h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#terms-of-usage-main p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+
+}
+
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Desktop Screen */
+@media (min-width: 1025px) {
+
+}
